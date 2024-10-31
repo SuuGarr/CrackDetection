@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0px;
+    background: #ffffff;
+}
+
+h1{
+    text-align: center;
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 65px;
+    letter-spacing: 3px;
+    /* text-shadow: black 0.1em 0.1em 0.2em; */
+    background-color: rgb(185, 185, 185); 
+    width: 100%; 
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center; 
+    /* align-items: center; 
+    gap: 20px;  */
+}
+
+.content-wrapper2 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 5px; 
+    row-gap: 5PX;
+}
+.video-stream {
+    display: inline-block;
+    padding: 100px; 
+    padding-top: 100px; 
+    border-radius: 30px;
+    background-color: #ffc56f; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    margin: 70px;
+}
+.video-txt {
+    text-align: center;
+    padding-bottom: 100;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: black 0.05em 0.05em 0.05em;
+    font-size: 40px;
+}
+
+.position-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.welding-para {
+    display: block;
+    top: 0;
+    left: 0;
+    height: 600px;
+    width: 400px; 
+    margin: 50px; 
+    margin-bottom: 220px;  
+    border-radius: 30px;
+    background-color: #8aceff; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.welding-para-h{
+    text-align: center;
+    padding: 0 0 10px 0;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    margin: 15px;
+    margin-bottom: 70px; 
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.welding-para-speed-h,.welding-para-current-h {
+    text-align: center;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.welding-para-speed, .welding-para-current{
+    text-align: center;
+    margin: 70px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.input-number{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 15px;  
+}
+
+.input-number-h {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.submit-button {
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #ffc56f;
+    border: none;
+    cursor: pointer; 
+    transition: background 0.3s ease;
+}
+
+.submit-button:hover{
+    background-color: #fca31e;
+}
+
+.status-box {
+    width: 500px;
+    height: 200px;
+    border-radius: 30px;
+    margin-bottom: 20px; 
+    transform: translateX(-60%);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    background-color: #8aceff; 
+}
+
+.status-box-txt {
+    text-align: center;
+    padding: 70px;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+}
+
+.status-ng {
+    background-color: red;
+}
+
+.status-ok {
+    background-color: green;
+}

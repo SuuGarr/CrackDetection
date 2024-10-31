@@ -1,0 +1,5 @@
+Metric,Value
+Precision,0.9985
+Recall,0.9918
+F1 Score,0.9951
+Average IoU,0.9316

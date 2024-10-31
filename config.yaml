@@ -1,0 +1,13 @@
+
+path: F:\2.detection-2ndData\data 
+train: images\train  
+val: images\train  
+
+names:
+  0: crack
+
+augmentation:
+  flipud: 0.5 #พลิกภาพกลับหัว
+  rotate: 180
+  scale: 0.5 #ปรับขนาด
+  translate: 0.5 #ย้าย
